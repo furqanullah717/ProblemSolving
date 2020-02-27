@@ -1,0 +1,12 @@
+/build.gradle
+/src/main/java/test
+/.gitignore
+/build.gradle
+/gradlew
+/gradlew.bat
+/settings.gradle
+/.gradle/
+/build/
+/.idea/
+/gradle/
+/main/
