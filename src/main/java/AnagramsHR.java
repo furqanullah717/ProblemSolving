@@ -1,4 +1,4 @@
-public class AngramsHR {
+public class AnagramsHR {
 
     private static int makeAnagram(String a, String b) {
         int[] charCountString1 = getCharacterCount(a);
@@ -26,5 +26,7 @@ public class AngramsHR {
 
     public static void main(String[] args) {
         System.out.println(makeAnagram("hello", "billion"));
+        System.out.println(makeAnagram("billion", "hello"));
+
     }
 }

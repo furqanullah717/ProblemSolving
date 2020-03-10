@@ -12,11 +12,11 @@ public class BinaryGapCodility {
 
             if (a == 1 && !isStarted) {
                 isStarted = true;
-            } else if (a == 1 && isStarted) {
+            } else if (a == 1) {
                 if (val > max)
                     max = val;
                 val = 0;
-            } else if (a == 0 && isStarted) {
+            } else if (isStarted) {
                 val++;
             }
         }

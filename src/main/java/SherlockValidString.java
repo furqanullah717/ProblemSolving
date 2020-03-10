@@ -1,14 +1,11 @@
-import java.lang.reflect.Array;
 import java.util.Arrays;
-import java.util.HashMap;
-import java.util.Iterator;
-import java.util.Map;
+
 
 public class SherlockValidString {
 
     // Complete the isValid function below.
     static String isValid(String s) {
-        int arr[] = new int[26];
+        int[] arr = new int[26];
         for (char c : s.toCharArray()) {
             int offset = 'a';
             arr[c - offset]++;
@@ -32,5 +29,6 @@ public class SherlockValidString {
 
     public static void main(String[] args) {
         System.out.println(isValid("ibfdg"));
+        System.out.println(isValid("ibfsdg"));
     }
 }

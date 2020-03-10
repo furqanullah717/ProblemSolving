@@ -3,7 +3,7 @@ import java.util.HashMap;
 public class OddNumbersArray {
 
     public int solution(int[] A) {
-        HashMap<Integer, Integer> map = new HashMap();
+        HashMap<Integer, Integer> map = new HashMap<>();
         for (int a : A) {
             Integer in = map.get(a);
             if (in == null)

@@ -1,7 +1,7 @@
 
 public class ArrayShiftingCodility {
     public int[] solution(int[] A, int K) {
-       int ar[]=A.clone();
+       int[] ar =A.clone();
         for (int i=0;i<K;i++){
             for(int k=0;k<A.length;k++){
                 if(k==A.length-1){
